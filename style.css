@@ -64,7 +64,8 @@ input {
   justify-content: space-between;
 }
 
-.tip-percentage-btn, .tip-percentage-input {
+.tip-percentage-btn,
+.tip-percentage-input {
   width: 48%;
   padding: 10px 0;
   margin: 5px 0;
@@ -83,14 +84,16 @@ input {
   padding-right: 10px;
 }
 
-.tip-percentage-btn--selected{
+.active {
   background-color: hsl(172, 67%, 45%);
   color: hsl(183, 100%, 15%);
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: hsl(186, 14%, 43%);
-  opacity: 1; /* Firefox */
+  opacity: 1;
+  /* Firefox */
 }
 
 .tip-calculations-section {
@@ -117,11 +120,12 @@ input {
 }
 
 .total-subtext {
-  color:hsl(184, 14%, 56%);
-  font-size:14px;
+  color: hsl(184, 14%, 56%);
+  font-size: 14px;
 }
 
-#tip-per-person-result, #total-tip-result {
+#tip-per-person-result,
+#total-tip-result {
   font-size: 28px;
   font-weight: 700;
   color: hsl(172, 67%, 45%);
